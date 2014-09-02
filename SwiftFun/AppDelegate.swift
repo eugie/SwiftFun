@@ -1,21 +1,21 @@
-//
-//  AppDelegate.swift
-//  SwiftFun
-//
-//  Created by pivotal on 9/2/14.
-//  Copyright (c) 2014 pivotal. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-
+    var rootViewController: MainViewController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.mainScreen().bounds);
+        rootViewController = MainViewController();
+        
+        if let window = window {
+            window.rootViewController = rootViewController;
+            window.backgroundColor = UIColor.whiteColor();
+            window.makeKeyAndVisible();
+        }
+        
         return true
     }
 
