@@ -4,3 +4,6 @@
 [submodule "Externals/Nimble"]
 	path = Externals/Nimble
 	url = https://github.com/Quick/Nimble.git
+[submodule "Externals/PivotalCoreKit"]
+	path = Externals/PivotalCoreKit
+	url = https://github.com/pivotal/PivotalCoreKit.git

@@ -14,6 +14,11 @@
 		AE1C0EC819B67B10006996F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C0EC719B67B10006996F2 /* MainViewController.swift */; };
 		AE1C0ECB19B67FB1006996F2 /* MainViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C0ECA19B67FB1006996F2 /* MainViewControllerSpec.swift */; };
 		AE1C0ECD19B68064006996F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C0EC719B67B10006996F2 /* MainViewController.swift */; };
+		AE1C0ECF19B6854B006996F2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C0ECE19B6854B006996F2 /* SignInViewController.swift */; };
+		AE1C0ED019B6854B006996F2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C0ECE19B6854B006996F2 /* SignInViewController.swift */; };
+		AE1C0EEA19B6879F006996F2 /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1C0EDF19B68780006996F2 /* libUIKit+PivotalSpecHelper-StaticLib.a */; };
+		AE1C0EEB19B687A3006996F2 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1C0EE119B68780006996F2 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */; };
+		AE1C0EED19B68C79006996F2 /* SignInViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C0EEC19B68C79006996F2 /* SignInViewControllerSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,55 @@
 			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
 			remoteInfo = "Quick-iOSTests";
 		};
+		AE1C0EDC19B68780006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC24168B999F0056EE83;
+			remoteInfo = "UIKit+PivotalCore-StaticLib";
+		};
+		AE1C0EDE19B68780006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC64168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
+		AE1C0EE019B68780006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEC40C89174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
+		AE1C0EE219B68780006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEBCCC34168B99ED0056EE83;
+			remoteInfo = "UIKit-StaticLibSpec";
+		};
+		AE1C0EE419B68780006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE118AA218D6B57000C90D6B;
+			remoteInfo = "UIKit-StaticLibSpecBundle";
+		};
+		AE1C0EE619B6878E006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC40C88174C203700474D2D;
+			remoteInfo = "UIKit+PivotalSpecHelperStubs-StaticLib";
+		};
+		AE1C0EE819B68798006996F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBCCC63168B9AF10056EE83;
+			remoteInfo = "UIKit+PivotalSpecHelper-StaticLib";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +148,9 @@
 		AE1C0EC719B67B10006996F2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AE1C0EC919B67FB1006996F2 /* SwiftFunTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftFunTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		AE1C0ECA19B67FB1006996F2 /* MainViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerSpec.swift; sourceTree = "<group>"; };
+		AE1C0ECE19B6854B006996F2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = Externals/PivotalCoreKit/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
+		AE1C0EEC19B68C79006996F2 /* SignInViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewControllerSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +165,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1C0EEB19B687A3006996F2 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a in Frameworks */,
+				AE1C0EEA19B6879F006996F2 /* libUIKit+PivotalSpecHelper-StaticLib.a in Frameworks */,
 				AE1C0EC619B679DC006996F2 /* Nimble.framework in Frameworks */,
 				AE1C0EC519B679D9006996F2 /* Quick.framework in Frameworks */,
 			);
@@ -141,6 +200,7 @@
 				AE1C0E8819B67407006996F2 /* AppDelegate.swift */,
 				AE1C0E8F19B67407006996F2 /* Images.xcassets */,
 				AE1C0EC719B67B10006996F2 /* MainViewController.swift */,
+				AE1C0ECE19B6854B006996F2 /* SignInViewController.swift */,
 				AE1C0E8619B67407006996F2 /* Supporting Files */,
 			);
 			path = SwiftFun;
@@ -157,8 +217,9 @@
 		AE1C0E9819B67407006996F2 /* SwiftFunTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE1C0E9919B67407006996F2 /* Supporting Files */,
 				AE1C0ECA19B67FB1006996F2 /* MainViewControllerSpec.swift */,
+				AE1C0EEC19B68C79006996F2 /* SignInViewControllerSpec.swift */,
+				AE1C0E9919B67407006996F2 /* Supporting Files */,
 			);
 			path = SwiftFunTests;
 			sourceTree = "<group>";
@@ -177,6 +238,7 @@
 			children = (
 				AE1C0EA619B679B6006996F2 /* Nimble.xcodeproj */,
 				AE1C0EB519B679C4006996F2 /* Quick.xcodeproj */,
+				AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */,
 			);
 			name = Externals;
 			sourceTree = "<group>";
@@ -199,6 +261,18 @@
 				AE1C0EC019B679C5006996F2 /* QuickTests.xctest */,
 				AE1C0EC219B679C5006996F2 /* Quick.framework */,
 				AE1C0EC419B679C5006996F2 /* Quick-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1C0ED219B68780006996F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1C0EDD19B68780006996F2 /* libUIKit+PivotalCore-StaticLib.a */,
+				AE1C0EDF19B68780006996F2 /* libUIKit+PivotalSpecHelper-StaticLib.a */,
+				AE1C0EE119B68780006996F2 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */,
+				AE1C0EE319B68780006996F2 /* UIKit-StaticLibSpec.app */,
+				AE1C0EE519B68780006996F2 /* UIKit-StaticLibSpecBundle.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +308,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				AE1C0EE919B68798006996F2 /* PBXTargetDependency */,
+				AE1C0EE719B6878E006996F2 /* PBXTargetDependency */,
 				AE1C0E9719B67407006996F2 /* PBXTargetDependency */,
 			);
 			name = SwiftFunTests;
@@ -278,6 +354,10 @@
 				{
 					ProductGroup = AE1C0EB619B679C4006996F2 /* Products */;
 					ProjectRef = AE1C0EB519B679C4006996F2 /* Quick.xcodeproj */;
+				},
+				{
+					ProductGroup = AE1C0ED219B68780006996F2 /* Products */;
+					ProjectRef = AE1C0ED119B68780006996F2 /* UIKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -345,6 +425,41 @@
 			remoteRef = AE1C0EC319B679C5006996F2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		AE1C0EDD19B68780006996F2 /* libUIKit+PivotalCore-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalCore-StaticLib.a";
+			remoteRef = AE1C0EDC19B68780006996F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE1C0EDF19B68780006996F2 /* libUIKit+PivotalSpecHelper-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelper-StaticLib.a";
+			remoteRef = AE1C0EDE19B68780006996F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE1C0EE119B68780006996F2 /* libUIKit+PivotalSpecHelperStubs-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIKit+PivotalSpecHelperStubs-StaticLib.a";
+			remoteRef = AE1C0EE019B68780006996F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE1C0EE319B68780006996F2 /* UIKit-StaticLibSpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "UIKit-StaticLibSpec.app";
+			remoteRef = AE1C0EE219B68780006996F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE1C0EE519B68780006996F2 /* UIKit-StaticLibSpecBundle.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UIKit-StaticLibSpecBundle.octest";
+			remoteRef = AE1C0EE419B68780006996F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -372,6 +487,7 @@
 			files = (
 				AE1C0E8919B67407006996F2 /* AppDelegate.swift in Sources */,
 				AE1C0EC819B67B10006996F2 /* MainViewController.swift in Sources */,
+				AE1C0ECF19B6854B006996F2 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,8 +495,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1C0EED19B68C79006996F2 /* SignInViewControllerSpec.swift in Sources */,
 				AE1C0ECB19B67FB1006996F2 /* MainViewControllerSpec.swift in Sources */,
 				AE1C0ECD19B68064006996F2 /* MainViewController.swift in Sources */,
+				AE1C0ED019B6854B006996F2 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +509,16 @@
 			isa = PBXTargetDependency;
 			target = AE1C0E8219B67407006996F2 /* SwiftFun */;
 			targetProxy = AE1C0E9619B67407006996F2 /* PBXContainerItemProxy */;
+		};
+		AE1C0EE719B6878E006996F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelperStubs-StaticLib";
+			targetProxy = AE1C0EE619B6878E006996F2 /* PBXContainerItemProxy */;
+		};
+		AE1C0EE919B68798006996F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIKit+PivotalSpecHelper-StaticLib";
+			targetProxy = AE1C0EE819B68798006996F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -499,6 +627,7 @@
 		AE1C0EA319B67407006996F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -511,16 +640,24 @@
 				);
 				INFOPLIST_FILE = SwiftFunTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftFunTests/SwiftFunTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFun.app/SwiftFun";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Externals/PivotalCoreKit/UIKit/**";
 			};
 			name = Debug;
 		};
 		AE1C0EA419B67407006996F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -529,9 +666,16 @@
 				);
 				INFOPLIST_FILE = SwiftFunTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftFunTests/SwiftFunTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFun.app/SwiftFun";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Externals/PivotalCoreKit/UIKit/**";
 			};
 			name = Release;
 		};
@@ -554,6 +698,7 @@
 				AE1C0EA119B67407006996F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE1C0EA219B67407006996F2 /* Build configuration list for PBXNativeTarget "SwiftFunTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +707,7 @@
 				AE1C0EA419B67407006996F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
